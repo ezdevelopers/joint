@@ -1,0 +1,651 @@
+@font-face {
+    font-family: "Helve light";
+    src: url(../../fonts/HelveticaNeueLTStd-LtCn.otf)
+}
+
+@font-face {
+    font-family: "Helve bold";
+    src: url(../../fonts/HelveticaNeueLTStd-MdCn.otf)
+}
+
+@font-face {
+    font-family: "Helve";
+    src: url(../../fonts/HelveticaNeueLTStd-UltLtCn.otf)
+}
+
+.para {
+    font-family: Helve;
+}
+
+.capitalise {
+    text-transform: uppercase;
+}
+
+.banner-heading .para {
+    background: #c12331;
+    color: #fff;
+    margin-left: 270px;
+    width: 400px;
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.banner-h1 {
+    font-family: "Helve";
+    font-size: 129px;
+    margin: 0;
+    padding: 180px 0 0 250px;
+    color: #c12331;
+}
+
+.banner-heading {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    min-height: 750px;
+    max-height: 750px;
+}
+
+.navbar-default {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    background-image: -moz-linear-gradient(0% 48% 270deg, #9d2e2c, #FFFFFF, #990000 0%);
+    background-image: -webkit-gradient(linear, 0% 48%, 0% 47%, from(#990000), to(#9d2e2c));
+    max-width: 850px;
+    left: 20%;
+    border-color: transparent;
+    font-family: "Helve light";
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+
+/*
+.navbar-brand img {
+    width: 100%;
+    height: 50px;
+}
+*/
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    font-family: "Helve light";
+    color: #eedfd2;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 35px;
+    border-right: 1px solid #a6232d;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-image: -moz-linear-gradient(0% 48% 270deg, #9d2e2c, #FFFFFF, #990000 0%);
+    background-image: -webkit-gradient(linear, 0% 48%, 0% 47%, from( #851e28), to(#9f2732)) !important;
+}
+
+.nav > li > a:last-of-type {
+    /*    border-right: none;*/
+}
+
+.earning {
+    background: #b9212e;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.earning .heading {
+    background: #fff;
+    height: 500px;
+    width: 500px;
+    padding: 50px 100px 50px 50px;
+    font-family: "Helve bold";
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+    margin-top: -250px;
+    margin-left: 85px;
+}
+
+.heading .title {
+    color: #c12331;
+    font-size: 40px;
+    width: 300px;
+}
+
+.earning .para {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.earning .align {
+    position: absolute;
+    z-index: 1;
+    margin-left: -100px;
+    margin-top: -50px;
+    /*    width: 500px;*/
+}
+
+.earning .align2 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 212px;
+    margin-top: -400px;
+    /*    width: 500px;*/
+}
+
+.brief {
+    padding: 200px 100px 100px 100px;
+    background: url(../images/arror.png) no-repeat;
+    background-size: auto;
+    opacity: 0.9;
+}
+
+.brief .heading {
+    font-family: Helve;
+    font-size: 69px;
+    color: #c12331;
+}
+
+.brief .para {
+    font-family: "Helve";
+    font-size: 35px;
+}
+
+.brief .para em {
+    font-family: "Helve bold";
+    font-style: normal;
+}
+
+.growth-bg {
+    background: url(../images/about.jpg) center center;
+    min-height: 450px;
+    max-height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.risk .para {
+    position: absolute;
+    z-index: 2;
+    padding: 80px 20px;
+    font-family: "Helve";
+    width: 350px;
+    background: #fff;
+    color: #c12331;
+    font-size: 24px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+    margin-top: 220px;
+    height: 300px;
+}
+
+.risk .para em {
+    font-family: "Helve bold";
+    font-style: normal;
+}
+
+.staff {
+    background: url(../images/about.jpg);
+    min-height: 600px;
+    max-height: 600px;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.staff:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000, #000);
+    opacity: .8;
+}
+
+.work .param {
+    position: absolute;
+    z-index: 2;
+    padding: 150px 50px 20px;
+    font-family: "Helve";
+    width: 350px;
+    height: 500px;
+    background: #c12331;
+    color: #fff;
+    font-size: 24px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+    margin-left: 700px;
+    margin-top: -20px;
+}
+
+.work .param em {
+    font-family: "Helve bold";
+    font-style: normal;
+}
+
+.work .heading {
+    font-size: 190px;
+    font-family: "Helve bold";
+    color: #fff;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.work .borderline {
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 400px;
+    letter-spacing: 0px;
+    font-family: "Helve";
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.work .line {
+    width: 400px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-family: "Helve";
+    text-align: center;
+}
+
+.business-bg {
+    background: url(../images/servicest.jpg);
+    background-size: cover;
+    min-height: 600px;
+}
+
+.business .line-height {
+    font-family: "Helve";
+    color: #c12331;
+    font-size: 35px;
+}
+
+.business .line-height em {
+    font-family: "Helve bold";
+    font-style: normal;
+}
+
+.business .line-big {
+    font-family: "Helve bold";
+    color: #c12331;
+    font-size: 65px;
+}
+
+.business .biz {
+    margin: 100px 0 50px 50px;
+}
+
+[class^=line] {
+    line-height: 40px;
+}
+
+.biz .img-responsive {
+    margin-left: 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.biz .para {
+    position: absolute;
+    z-index: 1;
+    padding: 150px 50px 20px;
+    font-family: "Helve";
+    width: 350px;
+    height: 400px;
+    background: #c12331;
+    color: #fff;
+    font-size: 24px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+    margin-left: 90px;
+    margin-top: 150px;
+}
+
+.biz .para em {
+    font-family: "Helve bold";
+    font-style: normal;
+}
+
+.investment-bg {
+    background: url(../images/overlay.jpg);
+    min-height: 1000px;
+    background-size: cover;
+}
+
+.investment .img-responsive {
+    margin: 300px 0 0 50px;
+}
+
+.investment .para {
+    position: absolute;
+    z-index: 1;
+    padding: 80px 40px 40px;
+    font-family: "Helve";
+    width: 500px;
+    height: 420px;
+    background: #c12331;
+    color: #fff;
+    font-size: 34px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+    margin-left: -150px;
+    margin-top: 250px;
+    border: 20px solid #fff;
+}
+
+.investment .para em {
+    font-family: "Helve bold";
+    font-style: normal;
+}
+
+.investment .param {
+    font-family: "Helve";
+    font-size: 33px;
+    padding: 50px;
+    color: #fff;
+    line-height: 33px;
+    margin: 0 0 0 150px;
+}
+
+.investment .param em {
+    font-family: "Helve bold";
+    font-style: normal;
+}
+
+.cta-bg {
+    background: url(../images/image.jpg);
+    background-size: cover;
+    min-height: 600px;
+}
+
+.cta .click {
+    text-align: right;
+    padding: 20px;
+    font-family: "Helve bold";
+    width: 210px;
+    background: #fff;
+    color: #c12331;
+    font-size: 41px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+    margin-top: 70px;
+    margin-left: 600px;
+    line-height: 41px;
+    z-index: 2;
+    position: absolute;
+}
+
+.cta .opportunity {
+    text-align: right;
+    padding: 20px;
+    font-family: "Helve";
+    width: 250px;
+    background: #c12331;
+    color: #fff;
+    font-size: 29px;
+    margin-top: 200px;
+    margin-left: 790px;
+    line-height: 30px;
+}
+
+.cta .started {
+    text-align: right;
+    padding: 10px;
+    font-family: "Helve bold";
+    width: 150px;
+    background: #fff;
+    color: #c12331;
+    font-size: 23px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+    margin-top: -20px;
+    margin-left: 700px;
+    line-height: 23px;
+    z-index: 2;
+    position: absolute;
+}
+
+.cta .btn-group {
+    margin-top: 80px;
+    margin-left: 700px;
+}
+
+.cta .btn-group .clickable {
+    background: #c12331;
+    color: #fff;
+    font-size: 29px;
+}
+
+.cta .btn-group .arrow {
+    background: #fff;
+    color: #c12331;
+    font-size: 29px;
+    border: none;
+}
+
+.cta .para {
+    color: #fff;
+    font-size: 32px;
+    text-align: right;
+}
+
+.cta .trusted {
+    max-width: 800px;
+    margin: 50px auto 50px;
+}
+
+.trusted .trust {
+    padding: 20px 10px;
+    background: #c12331;
+    color: #fff;
+    font-family: "Helve bold";
+    text-align: center;
+    font-size: 23px;
+}
+
+.trusted .trust-img {
+    padding: 11px;
+    background: #fff;
+}
+
+.footer-bg {
+    background: url(../images/footer.jpg);
+    background-size: cover;
+    min-height: 300px;
+    max-height: 300px;
+    padding: 50px;
+}
+
+footer {
+    color: #fff;
+}
+
+footer .para {
+    font-size: 23px;
+}
+
+footer .underline {
+    font-family: "Helve";
+    font-size: 26px;
+    border-bottom: 1px solid #c12331;
+}
+
+[class^=form-c] {
+    margin-top: 10px;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+footer .btn {
+    margin-top: 10px;
+}
+
+footer .underline.padding {
+    margin-top: 38px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a,
+footer ul li a:hover {
+    font-family: "Helve";
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.footer-bottom .para {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-default {
+        width: 100% !important;
+        max-width: 100%;
+        left: 0;
+    }
+    .banner-h1 {
+        font-size: 80px;
+        padding: 100px 30px 0;
+    }
+    .banner-heading .para {
+        width: 300px;
+        margin-left: 0;
+        font-size: 24px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .earning .heading {
+        height: 400px;
+        width: 300px;
+        padding: 50px 100px 50px 50px;
+        margin-top: -350px;
+        margin-left: 0px;
+    }
+    .heading .title {
+        font-size: 25px;
+        width: 200px;
+    }
+    .earning .para {
+        font-size: 15px;
+    }
+    .earning .align {
+        margin-left: -30px;
+        margin-top: -100px;
+    }
+    .earning .align2 {
+        margin-left: -50px;
+        margin-top: -250px;
+    }
+    .brief {
+        padding: 200px 50px 50px 50px;
+    }
+    .brief .heading {
+        font-size: 40px;
+    }
+    .brief .para {
+        font-size: 20px;
+    }
+    .work .param {
+        position: relative;
+        z-index: 0;
+        padding: 150px 50px 20px;
+        font-family: "Helve";
+        width: 350px;
+        height: 500px;
+        background: #c12331;
+        color: #fff;
+        margin-left: 0;
+        margin-top: -20px;
+    }
+    .work .heading {
+        font-size: 100px;
+        padding: 50px 50px 0px;
+    }
+    .work .borderline {
+        width: 400px;
+        font-size: 40px;
+    }
+    .work .line {
+        width: 400px;
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+    .biz .img-responsive {
+        margin-left: -60px;
+    }
+    .biz .para {
+        font-size: 24px;
+        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+        margin-left: -30px;
+        margin-top: 150px;
+        width: 300px;
+    }
+    .investment .img-responsive {
+        margin: 400px 0 0 0;
+    }
+    .investment .param {
+        font-size: 33px;
+        padding: 0px;
+        line-height: 33px;
+        margin-left: 30;
+    }
+    .investment .para {
+        position: relative;
+        z-index: 0;
+        width: 400px;
+        height: 400px;
+        font-size: 24px;
+        margin-left: -50px;
+        margin-top: 100px;
+        border: 10px solid #fff;
+    }
+    .cta .click {
+        font-size: 41px;
+        margin-top: 30px;
+        margin-left: 0px;
+        line-height: 41px;
+    }
+    .cta .opportunity {
+        margin-top: 190px;
+        margin-left: 50px;
+        line-height: 30px;
+    }
+    .cta .started {
+        margin-top: -20px;
+        margin-left: 50px;
+        line-height: 23px;
+        z-index: 2;
+        position: absolute;
+    }
+    .cta .btn-group {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .cta .para {
+        font-size: 32px;
+        text-align: center;
+    }
+    footer .para {
+        padding-top: 20px;
+    }
+    .work .heading, .work .borderline, .work .line{
+        color:#000;
+    }
+}
